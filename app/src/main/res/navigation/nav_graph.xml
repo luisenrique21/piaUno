@@ -31,7 +31,7 @@
     </fragment>
     <fragment
         android:id="@+id/ThirtFragment"
-        android:name="com.example.piano.ThirtFragment"
+        android:name="com.example.piano.ThirdFragment"
         android:label="DISPOSITIVOS BLUETOOTH"
         tools:layout="@layout/fragment_thirt">
         <action

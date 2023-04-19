@@ -10,17 +10,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.piano.databinding.FragmentSecondBinding;
 import com.example.piano.databinding.FragmentThirtBinding;
-import com.ingenieriajhr.blujhr.BluJhr;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link ThirtFragment#newInstance} factory method to
+ * Use the {@link ThirdFragment#newInstance} factory method to
  * create an instance of this fragment.
  *
  */
-public class ThirtFragment extends Fragment {
+public class ThirdFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -41,8 +39,8 @@ public class ThirtFragment extends Fragment {
      * @return A new instance of fragment ThirtFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static ThirtFragment newInstance(String param1, String param2) {
-        ThirtFragment fragment = new ThirtFragment();
+    public static ThirdFragment newInstance(String param1, String param2) {
+        ThirdFragment fragment = new ThirdFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -50,7 +48,7 @@ public class ThirtFragment extends Fragment {
         return fragment;
     }
 
-    public ThirtFragment() {
+    public ThirdFragment() {
         // Required empty public constructor
     }
 
@@ -77,7 +75,7 @@ public class ThirtFragment extends Fragment {
         binding.button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                NavHostFragment.findNavController(ThirtFragment.this)
+                NavHostFragment.findNavController(ThirdFragment.this)
                         .navigate(R.id.action_ThirtFragment_to_FirstFragment);
             }
         });
