@@ -1,0 +1,4 @@
+rootProject.name = "PIANO"
+include ':app'
+
+include ':app:blujhr'
